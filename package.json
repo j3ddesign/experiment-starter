@@ -39,5 +39,8 @@
   "browser": {
     "pixi.js": "./node_modules/pixi.js/bin/pixi.min.js",
     "tweenmax": "./node_modules/gsap/src/minified/TweenMax.min.js"
-  }
+  },
+  "repository": {
+    "git": "https://github.com/williamapan/experiment-starter"
+  },
 }
