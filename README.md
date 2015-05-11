@@ -24,19 +24,19 @@ npm install -g stylus
 npm install -g watchify
 ```
 
-[Babelify](https://github.com/babel/babelify)
-[Browser-sync](http://www.browsersync.io/)
-[Browserify](http://browserify.org/)
-[Stylus](https://learnboost.github.io/stylus/)
-[Watchify](https://github.com/substack/watchify)
+[Babelify](https://github.com/babel/babelify)  
+[Browser-sync](http://www.browsersync.io/)  
+[Browserify](http://browserify.org/)  
+[Stylus](https://learnboost.github.io/stylus/)  
+[Watchify](https://github.com/substack/watchify)  
 
 ## Dependencies and vendor
 
 Packages used on the end code.
 Feel free to add more ( npm install --save [packageName] )
 
-[PIXI.js](https://github.com/GoodBoyDigital/pixi.js)
-[GSAP/Tweenmax](http://www.greensock.com/gsap-js/)
+[PIXI.js](https://github.com/GoodBoyDigital/pixi.js)  
+[GSAP/Tweenmax](http://www.greensock.com/gsap-js/)  
 
 
 ## Tasks
