@@ -41,9 +41,11 @@ Feel free to add more ( npm install --save [packageName] )
 
 ## Tasks
 
+Have a look to the 'scripts' field in package.json ;)
+
 ### start
 
-Launches a browser-sync server on port 9000 with livereload and open default browser and start watching
+Launches a browser-sync server on port 9000 with livereload, open default browser and start watching
 
 ```bash
 npm start
@@ -75,8 +77,8 @@ npm run build:js
 
 ### build:js:vendor
 
-Bundle the v.js static file from /src/scripts/vendor/vendor.js
-By default, it contains PIXI.js and TweenMax on the window object.
+Bundle the v.js static file from /src/scripts/vendor/vendor.js  
+By default, it contains PIXI.js and TweenMax on the window object.  
 Feel free to add more.
 
 ```bash
