@@ -1,0 +1,43 @@
+{
+  "name": "experiment-starter",
+  "version": "0.0.1",
+  "description": "Small starter for experiments using ES6, PIXI.js and TweenMax",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run start:server & npm run watch",
+    "start:server": "browser-sync start --server 'static' --files 'static/' --port 9000 --no-ui",
+    "build": "npm run build:js && npm run build:js:vendor && npm run build:css",
+    "build:js": "browserify src/scripts/index.js --d -t babelify -o static/assets/js/main.js",
+    "build:js:vendor": "browserify src/scripts/vendor/vendor.js > static/assets/js/vendor/v.js",
+    "build:css": "stylus src/styles/index.styl -o static/assets/css/main.css",
+    "watch": "npm run watch:js & npm run watch:css",
+    "watch:js": "watchify -d -t babelify src/scripts/ -o static/assets/js/main.js",
+    "watch:css": "stylus src/styles/ -w -o static/assets/css/main.css"
+  },
+  "keywords": [
+    "experiment",
+    "boilerplate",
+    "ES6",
+    "browserify",
+    "watchify",
+    "babel",
+    "babelify",
+    "stylus",
+    "browser-sync",
+    "pixijs",
+    "tweenmax"
+  ],
+  "author": "William Mapan",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.0.2"
+  },
+  "dependencies": {
+    "gsap": "^1.16.1",
+    "pixi.js": "^3.0.3"
+  },
+  "browser": {
+    "pixi.js": "./node_modules/pixi.js/bin/pixi.min.js",
+    "tweenmax": "./node_modules/gsap/src/minified/TweenMax.min.js"
+  }
+}
