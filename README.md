@@ -10,19 +10,7 @@ Clone this repository, then
 npm install
 ```
 
-This will install the project and its dependencies
-
-## DevDependencies
-
-In order to develop and use the tasks, please install globally the following packages.
-(If you don't have them already installed globally)
-
-```bash
-npm install -g browser-sync
-npm install -g browserify
-npm install -g stylus
-npm install -g watchify
-```
+This will install the project and its dependencies to be able to develop
 
 [Babelify](https://github.com/babel/babelify)  
 [Browser-sync](http://www.browsersync.io/)  
@@ -30,7 +18,7 @@ npm install -g watchify
 [Stylus](https://learnboost.github.io/stylus/)  
 [Watchify](https://github.com/substack/watchify)  
 
-## Dependencies and vendor
+## Vendor
 
 Packages used on the end code.
 Feel free to add more ( npm install --save [packageName] )
